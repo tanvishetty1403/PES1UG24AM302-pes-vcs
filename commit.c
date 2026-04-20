@@ -250,3 +250,4 @@ int commit_create(const char *message, ObjectID *out) {
     return 0;
 }
 // Phase 4: commit_create
+// Phase 4: parent handling
