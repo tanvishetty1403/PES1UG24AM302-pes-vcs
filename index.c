@@ -117,3 +117,4 @@ void index_status(const Index *idx) {
         printf("  staged:     %s\n", idx->entries[i].path);
     }
 }
+// Phase 3: index_load
