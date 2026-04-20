@@ -273,3 +273,4 @@ int object_read(const ObjectID *id, ObjectType *type_out, void **data_out, size_
 }
 // Phase 1: object_write implementation
 // Phase 1: atomic write pattern
+// Phase 1: object_read implementation
