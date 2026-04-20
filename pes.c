@@ -42,6 +42,7 @@ void cmd_add(int argc, char *argv[]) {
     }
 
     Index index;
+
     if (index_load(&index) != 0) {
         fprintf(stderr, "error: failed to load index\n");
         return;
@@ -52,8 +53,11 @@ void cmd_add(int argc, char *argv[]) {
             fprintf(stderr, "error: failed to add '%s'\n", argv[i]);
         }
     }
-}
 
+    if (index_save(&index) != 0) {
+        fprintf(stderr, "error: failed to save index\n");
+    }
+}
 // Usage: pes status
 void cmd_status(void) {
     Index index;

@@ -16,7 +16,7 @@
 #include <dirent.h>
 #include <sys/stat.h>
 #include "index.h"
-
+#include "pes.h"
 // ─── Mode Constants ─────────────────────────────────────────────────────────
 
 #define MODE_FILE      0100644
