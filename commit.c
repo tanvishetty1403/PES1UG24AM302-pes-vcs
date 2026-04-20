@@ -251,3 +251,4 @@ int commit_create(const char *message, ObjectID *out) {
 }
 // Phase 4: commit_create
 // Phase 4: parent handling
+// Phase 4: HEAD update
